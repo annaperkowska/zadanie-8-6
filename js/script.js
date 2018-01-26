@@ -3,12 +3,12 @@ var a = prompt('Podaj wartość a'),
 	value;
 value = (a*a) - (2*a*b) + (b*b);
 if (value > 0) {
-	alert('wynik dodatni')
+	alert('wynik dodatni');
 	console.log('wynik dodatni');
 } else if (value < 0) {
-	alert('wynik ujemny')
+	alert('wynik ujemny');
 	console.log('wynik ujemny');
 } else {
-	alert('Wynik to 0')
+	alert('Wynik to 0');
 	console.log('Wynik to 0');
 }
