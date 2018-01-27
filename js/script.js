@@ -8,7 +8,11 @@ if (value > 0) {
 } else if (value < 0) {
 	alert('wynik ujemny');
 	console.log('wynik ujemny');
-} else {
+} else if (value == 0) {
 	alert('Wynik to 0');
 	console.log('Wynik to 0');
+} else {
+	alert('Błąd');
+	console.log('Błąd');
 }
+
